@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 27, 27);
+}
+
+.mozi{
+    height:100px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    letter-spacing: 3px;
+    width: 1000px;
+  }
+
+  .blinking{
+	-webkit-animation:blink 0.2s ease-in-out infinite alternate;
+    -moz-animation:blink 0.2s ease-in-out infinite alternate;
+    animation:blink 0.2s ease-in-out infinite alternate;
+}
+ @-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:100;}
+}
+
+.fade{
+    opacity : 0;
+    transition: opacity 0.5s;
+    width: 500px;
+    height: 200px;
+  }
+   
+  .fade.view{
+    opacity: 100;
+  }
