@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="keikoku.js"></script>
+    <title>警告！</title>
+</head>
+<body>
+    <a href="http://www.110kz.com/003/virus.htm"><img src="popup.png" class="fade"></a>
+    <script>
+        window.onload = function () {
+  fade_effect();
+
+  $(window).scroll(function () {
+    fade_effect();
+  });
+
+  function fade_effect() {
+    $('.fade').each(function () {
+      const targetElement = $(this).offset().top;
+      const scroll = $(window).scrollTop();
+      const windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight) {
+        $(this).addClass('view');
+      }
+    });
+  }
+};
+    </script>
+   <script>
+       alert('このpcは危険にさらされています！今すぐ対処してください！');
+   </script>
+    <div class="mozi">
+      <a href="http://www.110kz.com/003/virus.htm"><img src="popup.png" class="fade"></a>
+
+    <img src="https://memorandums.3ki3ki.com/wp-content/uploads/2015/11/01_webmaster.jpg" class="blinking" width="300px" height="200px">
+    <h1>このpcは危険な状態です！</h1>
+    <h3>今すぐに対応しないとデータ喪失の恐れがあります</h3>
+    <a href="http://www.110kz.com/003/virus.htm"><img src="popup.png" class="fade"></a>
+
+    <h3>ここで今すぐ購入ウイルスソフト</h3>
+    <a herf="http://www.110kz.com/003/virus.htm" style="color: white;">ここをクリックしてﾀﾞｳﾝﾛｰﾄﾞ至急</a>
+    <a href="http://www.110kz.com/003/virus.htm"><img src="popup.png" class="fade"></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img src="https://lomando.com/pimg/neckfall.gif">
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</html>
